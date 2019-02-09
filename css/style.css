@@ -1,0 +1,55 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    background-color: darkslategrey;
+    margin: 10px;
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+table td{
+    padding: 5px;
+}
+
+input{
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px grey;
+}
+.signs{
+    font-size: 28px;
+}
+
+#res1, #res2{
+    background-color: darkslategrey;
+    color: #fff;
+}
+#res3, #res4{
+    background-color: rgba(251, 150, 25, 0.897);
+}
+
+.instructions{
+    border: 2px solid grey;
+}
+
+footer{
+    background-color: darkslategrey;
+}
+
+/* @media(min-width: 992px){
+    table{
+        width: 50%;
+    }
+} */
