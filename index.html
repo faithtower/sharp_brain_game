@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sharp Brain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    
+</head>
+<body>
+    
+
+    <div class="container mx-auto">
+        <div class="row text-light heading rounded">
+            <div class="col-sm-2 col-4">
+                <img src="./images/unnamed.png" class="img-thumbnail my-4 my-md-0" width="100px;" alt="">
+            </div>
+            <div class="col-sm-9 col-7">
+                <div class="mt-3">
+                    <h3>SHARP BRAIN</h3>
+                    <p class="text-warning">Try your Critical Thinkink Level</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="message"></div>
+
+            <div class="row mx-auto bg-light justify-content-around"> <!-- Row-->
+                <div class="col-lg-7 p-3 m-2 shadow">
+                    <table class="text-center">
+                        <tr class="text-center">
+                            <td class="rounded"><input type="number" id="num1" class="number"></td>
+                            <td><span class="signs" id="sign1"> + </span></td>
+                            <td><input type="number" id="num2" class="number" disabled></td>
+                            <td><span class="signs equals"> = </span></td>
+                            <td><input type="number" id="res1" class="number" disabled></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><span class="signs" id="sign3"></span>
+                            <td></td>
+                            <td><span class="signs" id="sign4"></span>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><input type="number" id="num3" class="number"></td>
+                            <td><span class="signs" id="sign2"> - </span></td>
+                            <td><input type="number" id="num4" class="number" disabled></td>
+                            <td> <span class="signs"> = </span></td>
+                            <td><input type="number" id="res2" class="number" disabled></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><span class="font-weight-bold">||</span></td>
+                            <td></td>
+                            <td><span class="font-weight-bold">||</span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><input type="number" id="res3" class="number" disabled></td>
+                            <td></td>
+                            <td><input type="number" id="res4" class="number" disabled></td>
+                            <td></td>
+                            <td> <button class="btn btn btn-info shadow" id="submitBtn">Submit</button></td>
+                        </tr>
+                    </table> <!-- End of Table-->
+                </div> <!-- End of col-8-->
+                <div class="col-lg-4 shadow m-2 p-2">
+                    <div class="py-3 text-center mx-auto">
+                        <button id="shuffleBtn" class="btn btn-block btn-success py-2"><i class="fas fa-random"></i> Shuffle</button>
+                    </div>
+                    <div class="instructions p-3">
+                        <p class="text-danger text-center"> Instructions</p>
+                        Think Carefully and enter appriopriate <span class="font-weight-bold">NUMBERS</span> in the empty fields 
+                        which can be <span class="font-weight-bold">EVALUATED</span> to get the desired results for all four(4) results fields
+                        <div class="border shadow my-3 p-2">
+                                <p><span class="text-danger h3"> + </span> Addition<br>
+                                    <span class="text-danger h3"> * </span> Multiplication <br>
+                                    <span class="text-danger h3"> - </span> Subtraction 
+                                </p>
+                            <span class="text-primary">Submit</span> your results when you are sure of your answer
+                        </div>
+                        <p class="border my-3"></p>
+                        <p>You can Reshuffle the numbers by Clicking on the <span class="text-success">Shuffle Button</span></p>
+                    </div>
+                </div>
+
+            </div> <!-- End of Row-->
+
+            
+    </div>
+
+
+    <footer class="p-4 text-center text-light">
+        Created with <i class="fas fa-heart text-danger"></i> by Shadrack Ankomahene
+        <p class="text-warning">This Game is Dedicated to my Little Sister | Mary Dede Ankomahene</p>
+        <p>Copyright&copy;2019 | Faithtower Media</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
